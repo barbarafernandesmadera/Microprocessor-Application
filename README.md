@@ -1,0 +1,4 @@
+Programs in Assembly, C/C++ developed for each practical activity; practical assembly of the circuit with components using a simulator and/or development kit.
+Review of computer architecture and organization (RISC microprocessors, Harvard architecture), microcontroller architectures such as PIC18 family, Cortex-M, and ESP32; Special Function Registers (SFR) and General-Purpose Registers (GPR), addressing modes.
+Low-level language, compilation files (source code ".c", header ".h", Assembly); Embedded firmware development in "C", program structure, memory segmentation, static variables, timers, interruptions, and stack.
+Development of embedded applications: I/O ports, serial communication interfaces, wireless communication. PWM motor control, A/D converters, LCD display, and other peripherals.
