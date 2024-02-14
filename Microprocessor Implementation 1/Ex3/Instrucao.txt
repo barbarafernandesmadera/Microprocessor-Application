@@ -1,0 +1,14 @@
+Create a program in assembly that:
+
+➔ Place the origin at address 00h
+➔ Start the program with a label
+➔ Immediately move 10110111 to ACC and 10000111 to B
+➔ Perform logical AND between A and B
+➔ Rotate A to the right by 2 bits
+➔ Perform the complement of A
+➔ Rotate A to the left by 2 bits
+➔ Perform logical OR between A and B
+➔ Perform XOR between A and B
+➔ Perform SWAP of A
+➔ Jump to home label
+➔ Close the program

@@ -1,0 +1,26 @@
+    ORG 0000h    ; Escolhendo a origem em 0000h
+
+inicio: 
+
+    MOV A, #10110111b   ; Movendo de imediato o número binário 10110111 para o ACC
+    MOV B, #10000111b   ; Movendo de imediato o número binário 10000111 para o B
+
+    ANL A, B    ; Aplicando lógica AND entre A e B
+
+    RR A       ; Rotacionando A para a direita em um bit
+    RR A       ; Rotacionando A para a direita em um bit
+
+    CPL A       ; Complemento de A
+
+    RL A       ; Rotacionando A para a esquerda em um bit
+    RL A       ; Rotacionando A para a esquerda em um bit
+
+    ORL A, B    ; Aplicando lógica or e guardando em A
+
+    XRL A, B    ; Aplicando lógica xor e guardando em A
+
+    SWAP A      ; Realizando SWAP de A
+
+    JMP inicio  ; Saltar para a label inicial
+
+    END         ; Encerrando o programa
