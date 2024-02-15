@@ -1,4 +1,13 @@
-Programs in Assembly, C/C++ developed for each practical activity; practical assembly of the circuit with components using a simulator and/or development kit.
-Review of computer architecture and organization (RISC microprocessors, Harvard architecture), microcontroller architectures such as PIC18 family, Cortex-M, and ESP32; Special Function Registers (SFR) and General-Purpose Registers (GPR), addressing modes.
-Low-level language, compilation files (source code ".c", header ".h", Assembly); Embedded firmware development in "C", program structure, memory segmentation, static variables, timers, interruptions, and stack.
-Development of embedded applications: I/O ports, serial communication interfaces, wireless communication. PWM motor control, A/D converters, LCD display, and other peripherals.
+Review of microcontroller organization and architecture;
+- Organization of microcontrollers from the PIC18, Cortex-M3, and ESP32 families;
+Low-level hardware interaction
+- Operation modes, Special Function Registers (SFR) and General Purpose Registers (GPR), addressing modes;
+- Timers, interrupts, and stack;
+- Programming techniques for microcontrollers: algorithms, flowcharts, assembly language, and C language;
+- Development of embedded firmware in C language;
+- Internal structures of C programs: memory segmentation, code segments, static variables, stack, and interrupts;
+- Function calls in C programs;
+- Passing parameters in function calls, through registers and the stack.
+- Types of intermediate files in program compilation: source code (.c), header files (.h), assembly files (.asm);
+- Creation of executable firmware for microcontrollers;
+- Development of projects in embedded systems using I/O ports, serial and parallel communication interfaces, wireless communication, PWM motor control, A/D converters, LCD display, and other peripherals.
